@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="whole-page">
+<head>
+  <title>Frank's Projecten</title>
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<!--  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">-->
+</head>
+
+<body>
+<div class="container">
+  <header></header>
+
+  <!--<img alt="Image not loading" class="achtergrond" src="https://i.pinimg.com/originals/50/65/87/5065877162dcb52e7eb3f523600c7ca4.jpg">-->
+  <main>
+    <div class="cv_item">
+  <p><br>
+    Hier vind je de game-projecten die ik heb geprogrammeerd.<br>
+    Klik op een filmpje om een indruk te krijgen van het project.
+  </p>
+    </div>
+
+
+    <div class="cv_item">
+      <h2 (mouseover)="mouseOver(0)" (mouseleave)="mouseNotOver(0)" (click)="doeIets(0)">Project Bokemon</h2>
+      <div *ngIf="mousedOver[0] || selected[0]">
+        <p>
+        Project Bokemon is een project dat ik samen met een medetrainee heb gemaakt.<br>
+        Het is feitelijk een Pokemon-kloon.
+        </p>
+
+        <button class="md-button" (click)="bokemonFront()">Bokemon frontend code</button>
+        <button class="md-button" (click)="bokemonBack()">Bokemon backend code</button>
+      </div>
+    </div>
+
+    <div class="cv_item">
+      <h2 (mouseover)="mouseOver(1)" (mouseleave)="mouseNotOver(1)" (click)="doeIets(1)">Wizard Shooter</h2>
+      <div *ngIf="mousedOver[1] || selected[1]">
+      <p>
+        In deze game beweeg je door een dungeon en gebruik je jouw magie om wezentjes te verslaan.
+      </p>
+      <div  class="helft">
+        <div class="videowrapper">
+          <iframe src="https://www.youtube.com/embed/-h_Dbf6CueA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <br>
+      <button class="md-button" (click)="startWizardGame()">Wizard Game code</button>
+      </div>
+    </div>
+
+    <div class="cv_item">
+      <h2 (mouseover)="mouseOver(2)" (mouseleave)="mouseNotOver(2)" (click)="doeIets(2)">Avoidance Game</h2>
+      <div *ngIf="mousedOver[2] || selected[2]">
+      <p>
+        In deze game is behendigheid belangrijk om alle bewegende objecten te ontwijken.
+      </p>
+      <div  class="helft">
+      <div class="videowrapper">
+      <iframe src="https://www.youtube.com/embed/0hViKk7O2lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+      <br><button class="md-button" (click)="startAvoidanceGame()">Avoidance Game code</button>
+      </div>
+    </div>
+
+    <div class="cv_item">
+      <h2 (mouseover)="mouseOver(3)" (mouseleave)="mouseNotOver(3)" (click)="doeIets(3)">Mijn GitHub</h2>
+      <div *ngIf="mousedOver[3] || selected[3]">
+      <p>
+        Hier vind je al mijn projecten.
+      </p>
+      <button class="md-button" (click)="showAllProjects()">Mijn GitHub</button>
+      </div>
+    </div>
+
+
+
+
+  </main>
+<!-- <md-button (click)="startAvoidanceGame()">test</md-button>-->
+
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-messages.min.js"></script>-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>-->
+</div>
+</body>
+</html>

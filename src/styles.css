@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0px;
+  /*background-image: url(http://i.imgur.com/Vcx0y1U.jpg);*/
+  /*background-color: forestgreen;*/
+  /*background-color: hsla(120, 75%, 50%, 0.6);*/
+}
+
+html {
+  background-color: ivory;
+  /*background-image: url(http://i.imgur.com/Vcx0y1U.jpg);*/
+  /*position: fixed;*/
+  /*overflow: scroll;*/
+  /*z-index: 1;*/
+}
+

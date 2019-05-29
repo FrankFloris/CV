@@ -1,0 +1,119 @@
+body {
+  height: 45px;
+  /*min-height: 30px;*/
+}
+
+.nav_image {
+  height: 20px;
+  width: 20px;
+}
+
+/*a {*/
+/*  background-color: yellow;*/
+/*}*/
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  /*padding-top: 10px;*/
+  margin: 0;
+  position: fixed;
+  background-color: #0099ff;
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+li {
+  display: block;
+  float: left;
+  /*padding: 10px 18px;*/
+  padding-top: 10px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: revert;
+  border-right: 1px black solid;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  vertical-align: bottom;
+  /*z-index: 10;*/
+}
+
+li:hover:not(.active){
+  background-color: #006bb3;
+  height: 45px;
+}
+
+.active {
+  background-color: red;
+}
+
+/*li:active {*/
+/*  background-color: green;*/
+/*}*/
+
+.container {
+  width: 100%;
+  /*background-color: lightblue;*/
+}
+
+main {
+  margin-left: 12px;
+  margin-right: 12px;
+  font-family: 'Acme', serif;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h2 {
+  font-family: 'Acme', serif;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 12px;
+  height: min-content;
+  cursor: pointer;
+  width: max-content;
+}
+
+.cv_item {
+  /*background-color: coral;*/
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+html {
+  /*background-color: floralwhite;*/
+  min-height: 100%;
+}
+
+.linkjes {
+  font-family: 'Acme', serif;
+  text-underline: none;
+  color: black;
+}
+.background-image {
+  /*height: 20%;*/
+  max-height: 15%;
+  position: fixed;
+  max-width: 15%;
+}
+
+.background-image:hover {
+  transform: rotate(-6deg);
+}
+
+
+/*.books {*/
+/*  top: 10%;*/
+/*  left: 1%;*/
+/*}*/
+
+/*.cooking {*/
+/*  top: 40%;*/
+/*  left: 2%;*/
+/*}*/
+
